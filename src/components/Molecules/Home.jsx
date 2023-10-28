@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import bgImage from "../../assets/bg.svg";
 import image from "../../assets/umar21.png";
-import video from "../../assets/videoOFmine.gif";
 import { TypeAnimation } from "react-type-animation";
 import "aos/dist/aos.css";
 import Aos from "aos";
