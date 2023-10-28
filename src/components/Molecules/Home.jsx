@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import bgImage from "../../assets/bg.svg";
-import image from "../../assets/umar31.png";
+import image from "../../assets/umar21.png";
 import video from "../../assets/videoOFmine.gif";
 import { TypeAnimation } from "react-type-animation";
 import "aos/dist/aos.css";
@@ -35,8 +35,8 @@ const Home = () => {
           repeat={Infinity}
         />
       </div>
-      <div className=" borderRadius border-8 bg-[#087784] border-transparent ml-8 w-5/12 h-4/6 pt-10  relative">
-        <img src={image} className=" mt-5 w-72 h-80 rounded-lg transform" />
+      <div className="  border-transparent ml-8 w-8/12 h-6/6 pt-10  relative">
+        <img src={image} className=" mt-5 w-full h-92 rounded-lg transform" />
       </div>
     </div>
   );
