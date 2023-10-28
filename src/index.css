@@ -140,3 +140,12 @@ html{
   width: 18px;
   will-change: var(--framer-will-change-override, transform);
 }
+
+/* Home Component */
+.borderRadius{
+  border-radius: 56% 44% 33% 67% / 80% 73% 17% 10% ;
+  /* border: 4px dotted;  */
+  border-color:  conic-gradient(#ff0000 0%, #ffff00 16.67%, #00ff00 33.33%, #00ffff 50%, #0000ff 66.67%, #ff00ff 83.33%, #ff0000 100%);
+padding: 9px;
+box-sizing: border-box;
+}

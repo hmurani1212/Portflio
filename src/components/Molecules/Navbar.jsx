@@ -71,41 +71,15 @@ const Navbar = ({ className, id }) => {
         <BiLogoSkype className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
         <BiLogoLinkedin className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
       </div>
-      {/* <div className="w-9/12 mt-8 flex flex-col gap-3 relative">
-        <div className="h-10  p-2 flex gap-3 transition-all duration-500 text-gray-500 cursor-pointer hover:text-blue-500">
-          <AiOutlineHome className="w-6 h-6 hover:text-blue-500  " />{" "}
-          <span className="text-lg hover:text-white transition-all duration-500 Menu_after  "><a href="#home">Home</a></span>
-        </div>
-        <div className="h-10  p-2 flex gap-3 transition-all duration-500 text-gray-500 cursor-pointer hover:text-blue-500">
-          <BiUser className="w-6 h-6 hover:text-blue-500  " />
-          <span className="text-lg hover:text-white transition-all duration-500 Menu_after "><a href="#about">About</a></span>
-        </div>
-        <div className="h-10  p-2 flex gap-3 transition-all duration-500 text-gray-500 cursor-pointer hover:text-blue-500">
-          <BiFileBlank className="w-6 h-6 hover:text-blue-500  " />
-          <span className="text-lg hover:text-white transition-all duration-500 Menu_after "><a href="#resume">Resume</a></span>
-        </div>
-        <div className="h-10  p-2 flex gap-3 transition-all duration-500 text-gray-500 cursor-pointer hover:text-blue-500">
-          <BiBookContent className="w-6 h-6 hover:text-blue-500 " />
-          <span className="text-lg hover:text-white transition-all duration-500 Menu_after "><a href="#portfolio">Portfolio</a></span>
-        </div>
-        <div className="h-10  p-2 flex gap-3 transition-all duration-500  text-gray-500 cursor-pointer hover:text-blue-500">
-          <FaServer className="w-6 h-6 hover:text-blue-500  " />
-          <span className="text-lg hover:text-white transition-all duration-500 Menu_after "><a href="#services">Services</a></span>
-        </div>
-        <div className="h-10  p-2 flex gap-3  transition-all duration-500  text-gray-500 cursor-pointer hover:text-blue-500">
-          <BiEnvelope className="w-6 h-6 hover:text-blue-500 " />
-          <span className="text-lg hover:text-white transition-all duration-500 Menu_after "><a href="#contact">Contact</a></span>
-        </div>
-        <div className="absolute bottom-[-100px] text-gray-200">
-        <span>&copy;Copryright M.Umar</span>
-      </div> */}
-      {/* </div> */}
-      <div className="w-9/12 mt-8 flex flex-col gap-3 relative">
+
+      <div className="w-9/12 mt-8 flex flex-col gap-3 relative ">
         {menuItems.map((item, index) => (
           <div
             key={index}
-            className={`h-10 p-2 flex gap-3 transition-all duration-500 text-gray-500 cursor-pointer ${
-              activeItem === index ? "hover:text-white" : "hover:text-blue-500"
+            className={`h-10 p-2 flex gap-3 transition-all duration-150 text-gray-400 cursor-pointer ${
+              activeItem === index
+                ? "hover:text-gray-400"
+                : "hover:text-blue-500"
             }`}
             onClick={() => handleItemClick(index)}
           >
@@ -115,7 +89,7 @@ const Navbar = ({ className, id }) => {
               }`}
             />
             <span
-              className={`text-lg transition-all duration-500 Menu_after ${
+              className={`text-lg transition-all duration-75 Menu_after ${
                 activeItem === index ? "text-white" : ""
               }`}
             >

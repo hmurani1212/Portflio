@@ -4,8 +4,7 @@ import React from "react";
 const Resume = () => {
   return (
     <div
-      // data-aos="fade-top"
-    id="resume"
+      id="resume"
       className={`h-auto w-full flex flex-col justify-start gap-5 py-16 px-4 sm:px-14`}
     >
       <div className="">
@@ -21,7 +20,10 @@ const Resume = () => {
           precision converge to create exceptional web experiences.
         </p>
       </div>
-      <section className="text-gray-600 body-font mt-2 gap-54 flex flex-col md:flex-row ">
+      <section
+        data-aos="fade-top"
+        className="text-gray-700 body-font mt-2 gap-54 flex flex-col md:flex-row leading-7 "
+      >
         <div className="w-full md:w-6/12 gap-4 px md:px-4  flex flex-row flex-wrap">
           <Box className="">
             <div className="mb-4">
@@ -40,7 +42,7 @@ const Resume = () => {
               </p>
               <ul className="mt-2 ml-4">
                 <li className="list-item list-disc">
-                  Khyber colony, Kohat KPK, Pakistan
+                  6th Road, Rawalpindi, Pakistan
                 </li>
                 <li className="list-item list-disc">(+92) 302-8022243</li>
                 <li className="list-item list-disc">umarktk12141@gmail.com</li>
@@ -57,15 +59,17 @@ const Resume = () => {
                   HIGHER EDUCTAION & COLLEGE
                 </h4>
                 <h5 className="text-sm  inline-block py-1 px-3 font-bold mb-2 font-[cursive] bg-indigo-100">
-                  2015 - 2016
+                  2016 - 2018
                 </h5>
                 <p className="text-sm font-semibold">
-                  <em>Kohat University Of Science & technology, Pakistan</em>
+                  <em>Govt degree College, Serai Naurang, KPK</em>
                 </p>
-                <p className="py-2 text-sm">
-                  Completed Intermediate from Govt Post Graduate College, Kohat,
-                  with a strong foundation in Computer Science, ready to
-                  leverage my knowledge and skills in the tech industry.
+                <p className="py-2 text-base leading-7">
+                  Completed Intermediate from Govt Degree College, Serai
+                  Naurang, with a strong foundation in Computer Science, ready
+                  to leverage my knowledge and skills in the tech industry. I am
+                  now prepared to apply this knowledge and skills in the tech
+                  industry.
                 </p>
               </Box>
               <Box className="relative circle border-l-2 border-[#1f5297] pt-0 pl-5 pb-5 pr-0 ">
@@ -76,9 +80,11 @@ const Resume = () => {
                   2018 - 2022
                 </h5>
                 <p className="text-sm font-semibold">
-                  <em>Kohat University Of Science & technology, Pakistan</em>
+                  <em>
+                    Kohat University Of Science & technology, Kpk, Pakistan
+                  </em>
                 </p>
-                <p className="py-2 text-sm">
+                <p className="py-2 text-base leading-7">
                   Graduated with a Bachelor's in Software Engineering from Kohat
                   University of Science and Technology, equipped with a robust
                   foundation in software development and a passion for shaping
@@ -106,7 +112,7 @@ const Resume = () => {
                 2023 - Present
               </h5>
               <p>
-                <em>Alright Tech, Islamabad, Pakistan</em>
+                <em>Alright Tech, Rawalpindi, Pakistan</em>
               </p>
               <ul className="mt-2 ml-4">
                 <li className="list-item list-disc">
@@ -124,9 +130,9 @@ const Resume = () => {
                   comprehensive frontend solutions.
                 </li>
                 <li className="list-item list-disc">
-                  Collaborate closely with cross-functional teams to gather
-                  requirements, understand business needs, and implement
-                  comprehensive frontend solutions.
+                  Collaborate with UX/UI designers to translate wireframes and
+                  prototypes into visually appealing and user-friendly
+                  interfaces.
                 </li>
               </ul>
             </Box>
@@ -134,32 +140,34 @@ const Resume = () => {
           <Box>
             <Box className="relative circle border-l-2 border-[#1f5297] pt-0 pl-5 pb-5 pr-0 ">
               <h4 className="font-bold text-xl pb-1 text-gray-800">
-                JUNIOR FRONT END SPECIALIST
+                FRONT END WED DEVELOPER
               </h4>
               <h5 className="text-sm border inline-block py-1 px-3 font-bold mb-2 font-[cursive] bg-indigo-100">
-                2021 - 2023
+                25 Feb 2022 - 25 Aug 2022
               </h5>
               <p className="text-sm font-semibold">
-                <em>infussible coder, Kohat, Pakistan</em>
+                <em>
+                  National Incubation Center, Kohat University of Science and
+                  Technology, Kohat, Pakistan
+                </em>
               </p>
               <ul className="mt-2 ml-4">
                 <li className="list-item list-disc">
-                  Develop and maintain responsive and user-friendly web
-                  applications using HTML, CSS, JavaScript, Tailwind CSS, and
-                  Bootstrap.
+                  I contributed my expertise to the dynamic startup,
+                  Mushroolicious.
                 </li>
                 <li className="list-item list-disc">
-                  Managed up to 5 projects or tasks at a given time while under
-                  pressure
-                  <li className="list-item list-disc">
-                    Manage the frontend and user interface side of the
-                    organization, ensuring high-quality and visually appealing
-                    designs.
-                  </li>
+                  During my tenure from February 25 to August 25, 2022, I played
+                  a pivotal role in designing and developing the front-end of
+                  Mushroolicious' web presence.
                 </li>
                 <li className="list-item list-disc">
-                  Created an eye catchy and mobile friendly responsive designs
-                  fro clients.
+                  This experience allowed me to showcase my skills in web
+                  development, user interface design, and collaborate with an
+                  innovative startup in a dynamic environment.
+                </li>
+                <li className="list-item list-disc">
+                  Created an eye catchy and mobile friendly responsive designs.
                 </li>
               </ul>
             </Box>

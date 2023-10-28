@@ -40,7 +40,7 @@ const Skills = () => {
       <Box className="flex flex-col md:flex-row sm:mx-5 md:mx-0 gap-0 md:gap-5 text-gray-600">
         <Box className="border w-full grid grid-cols-1 md:grid-cols-2 gap-5 pb-5 ">
           {items.map((item) => (
-            <Box>
+            <Box data-aos="fade-up">
               <Box className="w-full flex justify-between text-sm my-1 font-bold">
                 <i>{item.name}</i>
                 <i>{item.per}</i>

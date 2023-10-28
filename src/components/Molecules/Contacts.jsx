@@ -51,7 +51,7 @@ const Contact = () => {
         <span className="line-border relative font-bold text-4xl text-[#173b6c]">
           Contact
         </span>
-        <p className="mt-10 text-base leading-8">
+        <p className="mt-10 text-lg leading-8">
           Let's Connect: Reach out and let's start a conversation about your
           next exciting project or collaboration. I'm just a message away!
         </p>
@@ -70,10 +70,10 @@ const Contact = () => {
                       <BsFillGeoAltFill className="hover:text-[#149ddd]  text-white font-light w-6 h-6" />
                     </div>
                     <div className="info bg-white pl-3 md:pl-0 flex-grow">
-                      <span className="text-xl font-semibold  hover:text-[#149ddd]">
+                      <span className="text-xl font-semibold  hover:text-[#149ddd] text-gray-800">
                         Location:
                       </span>
-                      <p className="leading-relaxed text-base">
+                      <p className="leading-relaxed text-base text-gray-700">
                         Kotka Parade, Serai Naurang, Lakki Marwat, KPK, Pakistan
                       </p>
                     </div>
@@ -86,10 +86,10 @@ const Contact = () => {
                       <CiMail className="hover:text-[#149ddd]  text-white font-light w-6 h-6" />
                     </div>
                     <div className="info bg-white pl-3 md:pl-0 flex-grow">
-                      <span className="text-xl font-semibold  hover:text-[#149ddd]">
+                      <span className="text-xl font-semibold  hover:text-[#149ddd] text-gray-800">
                         Email:
                       </span>
-                      <p className="leading-relaxed text-base">
+                      <p className="leading-relaxed text-base text-gray-700">
                         umarktk12141@gmail.com
                       </p>
                     </div>
@@ -102,10 +102,10 @@ const Contact = () => {
                       <IoCallOutline className="hover:text-[#149ddd]  text-white font-light w-6 h-6" />
                     </div>
                     <div className="info bg-white pl-3 md:pl-0 flex-grow">
-                      <span className="text-xl font-semibold  hover:text-[#149ddd]">
+                      <span className="text-xl font-semibold  hover:text-[#149ddd] text-gray-800">
                         Call:
                       </span>
-                      <p className="leading-relaxed text-base">
+                      <p className="leading-relaxed text-base text-gray-700">
                         +92 302-8022243
                       </p>
                     </div>
