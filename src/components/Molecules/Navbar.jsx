@@ -16,7 +16,7 @@ import {
 } from "react-icons/bi";
 import { FaServer } from "react-icons/fa";
 
-const Navbar = ({ className, id }) => {
+const Navbar = ({ className, id, onClick }) => {
   const [clicked, setClicked] = useState(false);
   const [activeItem, setActiveItem] = useState(null);
 
@@ -69,7 +69,12 @@ const Navbar = ({ className, id }) => {
         <BiLogoFacebook className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
         <AiOutlineInstagram className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
         <BiLogoSkype className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
-        <BiLogoLinkedin className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
+        <a
+          href="https://www.linkedin.com/in/muhammad-umar-3187b7235"
+          target="_blank"
+        >
+          <BiLogoLinkedin className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
+        </a>
       </div>
 
       <div className="w-9/12 mt-8 flex flex-col gap-3 relative ">
@@ -93,7 +98,9 @@ const Navbar = ({ className, id }) => {
                 activeItem === index ? "text-white" : ""
               }`}
             >
-              <a href={item.link}>{item.label}</a>
+              <a onClick={onClick} href={item.link}>
+                {item.label}
+              </a>
             </span>
           </div>
         ))}
