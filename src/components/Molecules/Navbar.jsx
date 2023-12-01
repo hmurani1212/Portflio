@@ -63,17 +63,25 @@ const Navbar = ({ className, id, onClick }) => {
       <Avatar />
       <span className="text-2xl font-bold ">M Umar</span>
       <div className="flex gap-2 mt-3">
-        <AiOutlineTwitter
-          className={`w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500`}
-        />
-        <BiLogoFacebook className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
-        <AiOutlineInstagram className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
-        <BiLogoSkype className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
         <a
           href="https://www.linkedin.com/in/muhammad-umar-3187b7235"
           target="_blank"
         >
           <BiLogoLinkedin className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
+        </a>
+        <a href="#">
+          <AiOutlineTwitter
+            className={`w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500`}
+          />
+        </a>
+        <a href="#">
+          <BiLogoFacebook className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
+        </a>
+        <a href="#">
+          <AiOutlineInstagram className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
+        </a>
+        <a href="#">
+          <BiLogoSkype className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
         </a>
       </div>
 
