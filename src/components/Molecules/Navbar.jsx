@@ -61,10 +61,11 @@ const Navbar = ({ className, id, onClick }) => {
     <div id={id} className={className}>
       {/* <div  className={`w-72 h-screen hidden lg:flex justify-start flex-col items-center  fixed bg-[#040b14] text-white font-['poppins','sans']`}> */}
       <Avatar />
-      <span className="text-2xl font-bold ">M Umar</span>
+      <span className="text-2xl font-bold ">Waqas Ahmad</span>
+      <span className="font-bold ">03400908073</span>
       <div className="flex gap-2 mt-3">
         <a
-          href="https://www.linkedin.com/in/muhammad-umar-3187b7235"
+          href="https://www.linkedin.com/in/waqas-ahmad-3444a0234"
           target="_blank"
         >
           <BiLogoLinkedin className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
@@ -112,8 +113,8 @@ const Navbar = ({ className, id, onClick }) => {
             </span>
           </div>
         ))}
-        <div className="absolute bottom-[-60px] text-gray-200">
-          <span>&copy; Copyright M.Umar</span>
+        <div className="absolute bottom-[-30px] text-gray-200">
+          <span>&copy; Copyright WaqasAhmad</span>
         </div>
       </div>
     </div>

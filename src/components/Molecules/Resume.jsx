@@ -30,7 +30,9 @@ const Resume = () => {
               <span className="font-bold text-2xl text-[#000]">Summary</span>
             </div>
             <Box className=" relative circle border-l-2 border-[#1f5297] pt-0 pl-5 pr-0 mb-4">
-              <h4 className="font-bold text-xl text-gray-800 pb-2 ">M Umar</h4>
+              <h4 className="font-bold text-xl text-gray-800 pb-2 ">
+                Waqas Ahmad
+              </h4>
               <p>
                 <em>
                   A seasoned Front End Web Developer with expertise in HTML,
@@ -44,8 +46,12 @@ const Resume = () => {
                 <li className="list-item list-disc">
                   6th Road, Rawalpindi, Pakistan
                 </li>
-                <li className="list-item list-disc">(+92) 302-8022243</li>
-                <li className="list-item list-disc">umarktk12141@gmail.com</li>
+                <li className="list-item list-disc font-semibold">
+                  (+92) 3400908073
+                </li>
+                <li className="list-item list-disc font-semibold">
+                  waqasapsacs4@gmail.com
+                </li>
               </ul>
             </Box>
             <Box className="">
@@ -59,34 +65,32 @@ const Resume = () => {
                   HIGHER EDUCTAION & COLLEGE
                 </h4>
                 <h5 className="text-sm  inline-block py-1 px-3 font-bold mb-2 font-[cursive] bg-indigo-100">
-                  2016 - 2018
+                  2015 - 2017
                 </h5>
                 <p className="text-sm font-semibold">
-                  <em>Govt degree College, Serai Naurang, KPK</em>
+                  <em>Govt degree College, Nowshera Cantt, KPK</em>
                 </p>
                 <p className="py-2 text-base leading-7">
-                  Completed Intermediate from Govt Degree College, Serai
-                  Naurang, with a strong foundation in Computer Science, ready
-                  to leverage my knowledge and skills in the tech industry. I am
+                  Completed Intermediate from Govt degree College, Nowshera
+                  Cantt, with a strong foundation in Pre_Engineering, ready to
+                  leverage my knowledge and skills in the tech industry. I am
                   now prepared to apply this knowledge and skills in the tech
                   industry.
                 </p>
               </Box>
               <Box className="relative circle border-l-2 border-[#1f5297] pt-0 pl-5 pb-5 pr-0 ">
                 <h4 className="font-bold text-xl pb-2 text-gray-800">
-                  BACHELOR OF SCIENCE IN SOFTWARE ENGINEERING
+                  BACHELOR OF COMPUTER SCIENCE
                 </h4>
                 <h5 className="text-sm  inline-block py-1 px-3 font-bold mb-2 font-[cursive] bg-indigo-100">
-                  2018 - 2022
+                  2017 - 2021
                 </h5>
                 <p className="text-sm font-semibold">
-                  <em>
-                    Kohat University Of Science & technology, Kpk, Pakistan
-                  </em>
+                  <em>Abdul Wali Khan University Mardan, Kpk, Pakistan</em>
                 </p>
                 <p className="py-2 text-base leading-7">
-                  Graduated with a Bachelor's in Software Engineering from Kohat
-                  University of Science and Technology, equipped with a robust
+                  Graduated with a Bachelor's in Computer Science from Abdul
+                  Wali Khan University Mardan , equipped with a robust
                   foundation in software development and a passion for shaping
                   innovative solutions in the ever-evolving tech landscape.
                 </p>
@@ -106,10 +110,10 @@ const Resume = () => {
             </div>
             <Box className="relative circle border-l-2 border-[#1f5297] pt-0 pl-5 pb-4 pr-0 ">
               <h4 className="font-bold text-xl text-gray-800 pb-2 ">
-                SENIOR FRONT END SPECIALIST
+                FRONT END DEVELOPER
               </h4>
               <h5 className="text-sm border inline-block py-1 px-3 font-bold mb-2 font-[cursive] bg-indigo-100">
-                2023 - Present
+                Sep, 2023 - Present
               </h5>
               <p>
                 <em>Alright Tech, Rawalpindi, Pakistan</em>
@@ -117,8 +121,8 @@ const Resume = () => {
               <ul className="mt-2 ml-4">
                 <li className="list-item list-disc">
                   Develop and maintain responsive, user-friendly and functional
-                  web applications using HTML, CSS, JavaScript, TypeScript,
-                  Next.js, Tailwind CSS, Bootstrap, and Material UI.
+                  web applications using HTML, CSS, JavaScript, Next.js,
+                  Tailwind CSS, Bootstrap, and Material UI.
                 </li>
                 <li className="list-item list-disc">
                   Optimize frontend applications for maximum performance,

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import bgImage from "../../assets/bg.svg";
-import image from "../../assets/umar21.png";
+import image from "../../assets/carton1.jpg";
 import { TypeAnimation } from "react-type-animation";
 import "aos/dist/aos.css";
 import Aos from "aos";
@@ -25,7 +25,7 @@ const Home = () => {
         <p className="text-2xl font-bold text-purple-700 mb-3">Hey There!</p>
         <p className="font-bold text-white text-5xl">
           <span className="text-purple-700">I'm </span>
-          <span className="text-cyan-600">M.Umar</span>
+          <span className="text-cyan-600">Waqas Ahmad</span>
         </p>
         <TypeAnimation
           className="text-2xl font-bold mt-3 text-white underline underline-offset-[14px] decoration-clone decoration-cyan-700"
@@ -35,7 +35,10 @@ const Home = () => {
         />
       </div>
       <div className="  border-transparent ml-8 w-8/12 h-6/6 pt-10  relative">
-        <img src={image} className=" mt-5 w-full h-92 rounded-lg transform" />
+        <img
+          src={image}
+          className=" mt-5 w-[200px] h-92 rounded-3xl transform"
+        />
       </div>
     </div>
   );

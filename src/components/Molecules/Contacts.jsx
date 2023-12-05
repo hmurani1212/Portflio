@@ -74,7 +74,7 @@ const Contact = () => {
                         Location:
                       </span>
                       <p className="leading-relaxed text-base text-gray-700">
-                        Kotka Parade, Serai Naurang, Lakki Marwat, KPK, Pakistan
+                        6th Road, Rawalpindi
                       </p>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ const Contact = () => {
                         Email:
                       </span>
                       <p className="leading-relaxed text-base text-gray-700">
-                        umarktk12141@gmail.com
+                        waqasapsacs4@gmail.com
                       </p>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                         Call:
                       </span>
                       <p className="leading-relaxed text-base text-gray-700">
-                        +92 302-8022243
+                        +92 340-0908073
                       </p>
                     </div>
                   </div>

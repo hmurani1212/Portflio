@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img from "../../assets/umar2.jpg";
+import img from "../../assets/carton1.jpg";
 import { AiOutlineRight } from "react-icons/ai";
 
 const About = ({ className }) => {
