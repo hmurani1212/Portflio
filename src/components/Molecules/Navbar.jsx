@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Avatar } from "../Atoms";
+import image from "../../assets/Hassan.jpeg";
 import {
   AiOutlineHome,
   AiOutlineInstagram,
@@ -61,11 +62,11 @@ const Navbar = ({ className, id, onClick }) => {
     <div id={id} className={className}>
       {/* <div  className={`w-72 h-screen hidden lg:flex justify-start flex-col items-center  fixed bg-[#040b14] text-white font-['poppins','sans']`}> */}
       <Avatar />
-      <span className="text-2xl font-bold ">Waqas Ahmad</span>
-      <span className="font-bold ">03400908073</span>
+      <span className="text-2xl font-bold ">Hssan Raza</span>
+      <span className="font-bold ">+923047949332</span>
       <div className="flex gap-2 mt-3">
         <a
-          href="https://www.linkedin.com/in/waqas-ahmad-3444a0234"
+          href="https://www.linkedin.com/in/hassa-raza-b31217254/"
           target="_blank"
         >
           <BiLogoLinkedin className="w-9 h-9 p-2 cursor-pointer transition-all duration-500 rounded-full bg-gray-800  hover:bg-blue-500" />
@@ -114,7 +115,7 @@ const Navbar = ({ className, id, onClick }) => {
           </div>
         ))}
         <div className="absolute bottom-[-30px] text-gray-200">
-          <span>&copy; Copyright WaqasAhmad</span>
+          <span>&copy; Copyright @HassanRaza</span>
         </div>
       </div>
     </div>

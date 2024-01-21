@@ -19,6 +19,8 @@ const Skills = () => {
     { name: "REACT", per: "90%", value: "90" },
     { name: "REDUX", per: "90%", value: "90" },
     { name: "NEXT", per: "80%", value: "80" },
+    { name: "Node Js", per: "80%", value: "80" },
+    { name: "Mongodb", per: "80%", value: "80" },
   ];
 
   return (
@@ -33,7 +35,7 @@ const Skills = () => {
         <p className="mt-10 text-lg leading-8">
           My passion shines through in every line of HTML, every style in CSS,
           every interactive feature in JavaScript, and every dynamic solution
-          with ReactJS and Redux. I'm a maestro of Tailwind CSS and Bootstrap,
+          with ReactJS and Redux. I'm a maestro of Tailwind CSS and Bootstrap, Node js,and Mongodb
           weaving innovation and aesthetics into every project.
         </p>
       </div>

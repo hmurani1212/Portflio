@@ -90,7 +90,7 @@ const Contact = () => {
                         Email:
                       </span>
                       <p className="leading-relaxed text-base text-gray-700">
-                        waqasapsacs4@gmail.com
+                       kkami5754049@gmail.com
                       </p>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                         Call:
                       </span>
                       <p className="leading-relaxed text-base text-gray-700">
-                        +92 340-0908073
+                        +92 3047949332
                       </p>
                     </div>
                   </div>

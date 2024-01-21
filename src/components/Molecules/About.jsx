@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img from "../../assets/carton1.jpg";
+import image from "../../assets/Hassan.jpeg";
 import { AiOutlineRight } from "react-icons/ai";
 
 const About = ({ className }) => {
@@ -24,7 +24,7 @@ const About = ({ className }) => {
           As a highly skilled software engineer specializing in web development,
           I bring a wealth of expertise to the table. Proficient in a wide range
           of technologies including HTML, CSS, JavaScript, TypeScript, React,
-          Next.js, Tailwind CSS, Material UI, and Bootstrap, I have a proven
+          Next.js, Node js , Mongodb, Tailwind CSS, Material UI, and Bootstrap, I have a proven
           track record of delivering responsive and user-friendly web
           applications. My strengths lie in problem-solving, performance
           optimization, and effective collaboration with cross-functional teams
@@ -33,13 +33,13 @@ const About = ({ className }) => {
       </div>
       <div className="to-left w-full flex flex-col lg:flex-row gap-7 ">
         <img
-          src={img}
+          src={image}
           data-aos="fade-right"
           className="mt-1 w-full h-auto rounded mx-auto sm:w-[550px] sm:h-[530px] md:w-[600px] md:h-[570px] lg:w-6/12 lg:h-72"
         />
         <div className="" data-aos="fade-left">
           <h1 className="mb-2 text-3xl font-bold text-[#173b6c]">
-            Front End Web Developer.
+           Mern Stack Developer
           </h1>
           <p className="italic mb-4 text-md">
             Coding Pixels into Dreams: Crafting captivating web experiences, one
@@ -49,7 +49,7 @@ const About = ({ className }) => {
           <p className="mt-4 text-base leading-8 mb-0">
             As a Front End Web Developer, I'm your passionate partner in
             crafting captivating online experiences. With expertise in HTML,
-            CSS, JavaScript, Bootstrap, Tailwind CSS, ReactJS, and Redux, I
+            CSS, JavaScript, Bootstrap, Tailwind CSS,  Node js , Mongodb, ReactJS, and Redux, I
             transform visions into visually stunning, user-friendly websites. I
             thrive on exceeding expectations and ensuring both clients and users
             are thrilled with the results. Let's turn your digital dreams into

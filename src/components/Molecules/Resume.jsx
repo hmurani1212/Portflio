@@ -13,7 +13,7 @@ const Resume = () => {
         </span>
         <p className="mt-10 text-lg leading-8">
           With a strong foundation in web development and a passion for coding
-          excellence, I specialize in HTML, CSS, JavaScript, ReactJS, Redux,
+          excellence, I specialize in HTML, CSS, JavaScript, ReactJS, Redux,Node js,mongodb
           Tailwind CSS, and Bootstrap. My commitment to delivering top-notch
           solutions is evident in every project I undertake. Join me on a
           journey through my professional experience, where innovation and
@@ -31,12 +31,12 @@ const Resume = () => {
             </div>
             <Box className=" relative circle border-l-2 border-[#1f5297] pt-0 pl-5 pr-0 mb-4">
               <h4 className="font-bold text-xl text-gray-800 pb-2 ">
-                Waqas Ahmad
+                Hassan Raza
               </h4>
               <p>
                 <em>
                   A seasoned Front End Web Developer with expertise in HTML,
-                  CSS, JavaScript, ReactJS, Redux, Tailwind CSS, and Bootstrap.
+                  CSS, JavaScript, ReactJS, Redux, Tailwind CSS, and Bootstrap, Node js and mongodb.
                   Committed to crafting exceptional web experiences through
                   innovation and precision, driven by a passion for coding
                   excellence.
@@ -47,10 +47,10 @@ const Resume = () => {
                   6th Road, Rawalpindi, Pakistan
                 </li>
                 <li className="list-item list-disc font-semibold">
-                  (+92) 3400908073
+                  (+92) 3047949332
                 </li>
                 <li className="list-item list-disc font-semibold">
-                  waqasapsacs4@gmail.com
+                  kkami5754049@gmail.com
                 </li>
               </ul>
             </Box>
