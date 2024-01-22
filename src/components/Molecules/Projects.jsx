@@ -40,7 +40,21 @@ function Projects() {
                         </a>
                     </div>
                     <div className='my-5'>
-                        <h1 className='text-2xl font-bold'> 3) Attendence Sheet    </h1>
+                        <h1 className='text-2xl font-bold'> 3) News App    </h1>
+                        <p className='my-3'>Technology: REACT, (News Api Integration)</p>
+                        {/* Use 'href' instead of 'to' for an external link */}
+                        <a href="https://news-website-ivory.vercel.app/" target='_blank' rel="noopener noreferrer">
+                            <button
+                                type="button"
+                                className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                            >
+                                View Project
+                            </button>
+                          
+                        </a>
+                    </div>
+                    <div className='my-5'>
+                        <h1 className='text-2xl font-bold'> 4) Attendence Sheet    </h1>
                         <p className='my-3'>Technology: REACT, NODE, AND MONGODB</p>
                         {/* Use 'href' instead of 'to' for an external link */}
                         <a href="https://attendence-shett.vercel.app/" target='_blank' rel="noopener noreferrer">
@@ -54,7 +68,7 @@ function Projects() {
                         </a>
                     </div>
                     <div className='my-5'>
-                        <h1 className='text-2xl font-bold'> 4) Doctore Adimin Pannels    </h1>
+                        <h1 className='text-2xl font-bold'> 5) Doctore Adimin Pannels    </h1>
                         <p className='my-3'>Technology: REACT, NODE, AND MONGODB</p>
                         {/* Use 'href' instead of 'to' for an external link */}
                         <a href="https://admin-panel1-mocha.vercel.app/" target='_blank' rel="noopener noreferrer">
@@ -68,7 +82,7 @@ function Projects() {
                         </a>
                     </div>
                     <div className='my-5'>
-                        <h1 className='text-2xl font-bold'> 5)Store App   </h1>
+                        <h1 className='text-2xl font-bold'> 6)Store App   </h1>
                         <p className='my-3'>Technology: REACT, NODE, AND MONGODB</p>
                         {/* Use 'href' instead of 'to' for an external link */}
                         <a href="https://admin-panel1-mocha.vercel.app/" target='_blank' rel="noopener noreferrer">
@@ -82,7 +96,7 @@ function Projects() {
                         </a>
                     </div>
                     <div className='my-5'>
-                        <h1 className='text-2xl font-bold'> 6) Add Notes    </h1>
+                        <h1 className='text-2xl font-bold'> 7) Add Notes    </h1>
                         <p className='my-3'>Technology: REACT, NODE, AND MONGODB</p>
                         {/* Use 'href' instead of 'to' for an external link */}
                         <a href="https://add-notes-website.vercel.app/" target='_blank' rel="noopener noreferrer">
@@ -96,7 +110,7 @@ function Projects() {
                         </a>
                     </div>
                     <div className='my-5'>
-                        <h1 className='text-2xl font-bold'> 7) Read Notes and Books</h1>
+                        <h1 className='text-2xl font-bold'> 8) Read Notes and Books</h1>
                         <p className='my-3'>Technology: REACT, NODE, AND MONGODB</p>
                         {/* Use 'href' instead of 'to' for an external link */}
                         <a href="https://read-nots.vercel.app/" target='_blank' rel="noopener noreferrer">
@@ -110,7 +124,7 @@ function Projects() {
                         </a>
                     </div>
                     <div className='my-5'>
-                        <h1 className='text-2xl font-bold'> 8) Redux USE(Deposit and Withdraw Money)     </h1>
+                        <h1 className='text-2xl font-bold'> 9) Redux USE(Deposit and Withdraw Money)     </h1>
                         <p className='my-3'>Technology: REACT, NODE, AND MONGODB</p>
                         {/* Use 'href' instead of 'to' for an external link */}
                         <a href="https://redux-app-ten.vercel.app/" target='_blank' rel="noopener noreferrer">
