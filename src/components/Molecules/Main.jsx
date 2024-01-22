@@ -8,6 +8,7 @@ import {
   Resume,
   Services,
   Skills,
+  Projects
 } from "./index";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -19,6 +20,7 @@ const Main = () => {
       <Home className="" />
       <div className="section lg:ml-[30px] bg-white">
         <About className="" />
+        <Projects/>
         <Facts />
         <Skills />
         <Resume />
