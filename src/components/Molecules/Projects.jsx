@@ -12,7 +12,7 @@ function Projects() {
                 </span>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-10">
                     <div className='my-5'>
-                        <h1 className='text-2xl font-bold'> 1) Admin Pannle To Handle Staff Position <span className='text-sm'>(email === "admin123@gmail.com" && password === "12345") </span>   </h1>
+                        <h1 className='text-2xl font-bold'> 1) Admin Pannle To Handle Staff Position   </h1>
                         <p className='my-3'>Technology: REACT, NODE, AND MONGODB</p>
                         {/* Use 'href' instead of 'to' for an external link */}
                         <a href="https://admin-panel1-mocha.vercel.app/" target='_blank' rel="noopener noreferrer">
