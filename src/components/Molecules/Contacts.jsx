@@ -4,6 +4,7 @@ import { CiMail } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import emailjs from "@emailjs/browser";
 
+
 const Contact = () => {
   const form = useRef();
   const [name, setName] = useState("");
@@ -41,6 +42,13 @@ const Contact = () => {
         }
       );
   };
+  const send_emial = async (e) =>{
+    try{
+      const url = "https://portlio-backend.vercel.app/api/send_email"
+    }catch(error){
+      console.log(error)
+    }
+  }
 
   return (
     <div
