@@ -29,8 +29,11 @@ const Contact = () => {
           subject,
         }
       );
-
-      toast.success(response.data.MESSAGE);
+    toast.success(response.data.MESSAGE);
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
     } catch (error) {
       toast.error(
         error.response?.data?.ERROR_DESCRIPTION || "Something went wrong!"
