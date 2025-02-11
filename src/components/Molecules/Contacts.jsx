@@ -3,7 +3,8 @@ import { BsFillGeoAltFill } from "react-icons/bs";
 import { CiMail } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 import emailjs from "@emailjs/browser";
-
+import axios from "axios";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
@@ -12,43 +13,30 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const sendEmail = (e) => {
+  const send_email = async (e) => {
     e.preventDefault();
-
-    const templateParams = {
-      user_name: name,
-      email_id: email,
-      message: message,
-      subject: subject,
-    };
-    console.log("i am parama", templateParams);
-    emailjs
-      .send(
-        "service_0udm23a",
-        "template_5bd0c1q",
-        templateParams,
-        "bq9AuM2RUfQWUcIcu"
-      )
-      .then(
-        (result) => {
-          console.log(result);
-          setEmail("");
-          setName("");
-          setMessage("");
-          setSubject("");
-        },
-        (error) => {
-          console.log(error.text);
+    console.log("name", name.trim().length);
+    if (name.trim().length==0) {
+      return toast.error(`Please enter name`);
+    }
+    try {
+      const response = await axios.post(
+        "https://portlio-backend.vercel.app/api/send_email",
+        {
+          name,
+          email,
+          message,
+          subject,
         }
       );
-  };
-  const send_emial = async (e) =>{
-    try{
-      const url = "https://portlio-backend.vercel.app/api/send_email"
-    }catch(error){
-      console.log(error)
+
+      toast.success(response.data.MESSAGE);
+    } catch (error) {
+      toast.error(
+        error.response?.data?.ERROR_DESCRIPTION || "Something went wrong!"
+      );
     }
-  }
+  };
 
   return (
     <div
@@ -98,7 +86,7 @@ const Contact = () => {
                         Email:
                       </span>
                       <p className="leading-relaxed text-base text-gray-700">
-                       kkami5754049@gmail.com
+                        kkami5754049@gmail.com
                       </p>
                     </div>
                   </div>
@@ -128,7 +116,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="w-full flex-1 mt-5 lg:mt-0 mx-5  info px-2 bg-white shadow-md">
-                <form className="h-full" onSubmit={sendEmail}>
+                <form className="h-full">
                   <div className="flex flex-wrap -mx-4  ">
                     <div className="w-full md:w-1/2 px-4 mb-3">
                       <label htmlFor="name" className="text-lg">
@@ -192,6 +180,7 @@ const Contact = () => {
                     <button
                       type="submit"
                       className="py-2 px-6 mt-3 bg-indigo-500 rounded text-white text-lg font-semibold hover:bg-indigo-600 transition duration-300"
+                      onClick={send_email}
                     >
                       Send Message
                     </button>
