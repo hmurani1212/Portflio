@@ -84,9 +84,9 @@ function Projects() {
                   <p className="mx-5">{data.description}</p>
                   {/* <p className="ml-5"><span className="font-bold mx-2">technologies </span>{data.technologies}</p> */}
                   <p
-                    className="inline-block cursor-pointer w-auto text-center min-w-[100px] px-6 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-blue-600 to-blue-500 hover:bg-gradient-to-b dark:shadow-blue-900 shadow-blue-200 hover:shadow-2xl hover:shadow-blue-400"
+                    className="inline-block  w-auto text-center min-w-[100px] px-6 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-blue-600 to-blue-500 hover:bg-gradient-to-b dark:shadow-blue-900 shadow-blue-200 hover:shadow-2xl hover:shadow-blue-400"
                     onClick={() => Naviagte_project(data.link)}
-                  >
+                 style={{cursor: pointer}} >
                     Browse
                   </p>
                 </div>
